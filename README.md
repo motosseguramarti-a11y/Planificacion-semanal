@@ -1,54 +1,67 @@
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planificación semanal</title>
+    <title>Planificacion semanal</title>
 
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 30px;
+            background-color: white;
         }
 
         h1 {
             text-align: center;
+            border-bottom: none !important;
+            margin-bottom: 20px;
         }
 
         table {
             width: 100%;
             height: 300px;
-            border: 2px solid black;
+            border: 2px solid black !important;
             border-radius: 15px;
-            border-spacing: 5px;
-            padding: 10px;
+            border-collapse: separate !important;
+            border-spacing: 5px !important;
+            padding: 10px !important;
+            table-layout: auto !important;
         }
 
         th, td {
-            border: 1px solid black;
+            border: 1px solid black !important;
             border-radius: 10px;
             text-align: center;
             padding: 12px 10px;
+            width: 11.5%;
+        }
+
+        th:first-child, .bloque {
+            width: 19.5%;
         }
 
         th {
-            background-color: #333333;
-            color: white;
+            background-color: #333333 !important;
+            color: white !important;
             padding: 15px 10px;
         }
 
         .bloque {
-            background-color: #333333;
-            color: white;
+            background-color: #333333 !important;
+            color: white !important;
             font-weight: bold;
         }
 
         .estudiar {
-            background-color: #DCEFEF;
+            background-color: #DCEFEF !important;
+            color: black !important;
         }
 
         .clases, .descansar {
-            background-color: #1455ED;
+            background-color: #1455ED !important;
+            color: black !important;
         }
     </style>
 </head>
