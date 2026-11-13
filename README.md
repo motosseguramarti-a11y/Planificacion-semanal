@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -67,8 +66,6 @@
 </head>
 
 <body>
-
-    <h1>Planificacion semanal</h1>
 
     <table>
         <!-- Primera fila: dias -->
